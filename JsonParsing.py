@@ -15,4 +15,5 @@ while True:
     time.sleep(3)
     if __name__ == '__main__':
         print("getOpened : ")
-        print(getOpened("192.168.0.56"))
+        print(getOpened("192.168.0.8:8000"))
+        # 이거 포트 까지 입력해야함.. 8000
